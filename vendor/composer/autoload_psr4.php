@@ -69,6 +69,8 @@ return array(
     'Backpack\\Settings\\' => array($vendorDir . '/backpack/settings/src'),
     'Backpack\\PermissionManager\\' => array($vendorDir . '/backpack/permissionmanager/src'),
     'Backpack\\PageManager\\' => array($vendorDir . '/backpack/pagemanager/src'),
+    'Backpack\\NewsCRUD\\' => array($vendorDir . '/backpack/newscrud/src'),
+    'Backpack\\MenuCRUD\\' => array($vendorDir . '/backpack/menucrud/src'),
     'Backpack\\LogManager\\' => array($vendorDir . '/backpack/logmanager/src'),
     'Backpack\\LangFileManager\\' => array($vendorDir . '/backpack/langfilemanager/src'),
     'Backpack\\Generators\\' => array($vendorDir . '/backpack/generators/src'),

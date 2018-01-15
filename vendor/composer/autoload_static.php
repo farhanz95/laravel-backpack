@@ -135,6 +135,8 @@ class ComposerStaticInit88ce4bd18897dc424d750d190e13d29a
             'Backpack\\Settings\\' => 18,
             'Backpack\\PermissionManager\\' => 27,
             'Backpack\\PageManager\\' => 21,
+            'Backpack\\NewsCRUD\\' => 18,
+            'Backpack\\MenuCRUD\\' => 18,
             'Backpack\\LogManager\\' => 20,
             'Backpack\\LangFileManager\\' => 25,
             'Backpack\\Generators\\' => 20,
@@ -403,6 +405,14 @@ class ComposerStaticInit88ce4bd18897dc424d750d190e13d29a
         array (
             0 => __DIR__ . '/..' . '/backpack/pagemanager/src',
         ),
+        'Backpack\\NewsCRUD\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/backpack/newscrud/src',
+        ),
+        'Backpack\\MenuCRUD\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/backpack/menucrud/src',
+        ),
         'Backpack\\LogManager\\' => 
         array (
             0 => __DIR__ . '/..' . '/backpack/logmanager/src',
@@ -582,6 +592,19 @@ class ComposerStaticInit88ce4bd18897dc424d750d190e13d29a
         'Backpack\\LangFileManager\\database\\seeds\\LanguageTableSeeder' => __DIR__ . '/..' . '/backpack/langfilemanager/src/database/seeds/LanguageTableSeeder.php',
         'Backpack\\LogManager\\LogManagerServiceProvider' => __DIR__ . '/..' . '/backpack/logmanager/src/LogManagerServiceProvider.php',
         'Backpack\\LogManager\\app\\Http\\Controllers\\LogController' => __DIR__ . '/..' . '/backpack/logmanager/src/app/Http/Controllers/LogController.php',
+        'Backpack\\MenuCRUD\\MenuCRUDServiceProvider' => __DIR__ . '/..' . '/backpack/menucrud/src/MenuCRUDServiceProvider.php',
+        'Backpack\\MenuCRUD\\app\\Http\\Controllers\\Admin\\MenuItemCrudController' => __DIR__ . '/..' . '/backpack/menucrud/src/app/Http/Controllers/Admin/MenuItemCrudController.php',
+        'Backpack\\MenuCRUD\\app\\Models\\MenuItem' => __DIR__ . '/..' . '/backpack/menucrud/src/app/Models/MenuItem.php',
+        'Backpack\\NewsCRUD\\NewsCRUDServiceProvider' => __DIR__ . '/..' . '/backpack/newscrud/src/NewsCRUDServiceProvider.php',
+        'Backpack\\NewsCRUD\\app\\Http\\Controllers\\Admin\\ArticleCrudController' => __DIR__ . '/..' . '/backpack/newscrud/src/app/Http/Controllers/Admin/ArticleCrudController.php',
+        'Backpack\\NewsCRUD\\app\\Http\\Controllers\\Admin\\CategoryCrudController' => __DIR__ . '/..' . '/backpack/newscrud/src/app/Http/Controllers/Admin/CategoryCrudController.php',
+        'Backpack\\NewsCRUD\\app\\Http\\Controllers\\Admin\\TagCrudController' => __DIR__ . '/..' . '/backpack/newscrud/src/app/Http/Controllers/Admin/TagCrudController.php',
+        'Backpack\\NewsCRUD\\app\\Http\\Requests\\ArticleRequest' => __DIR__ . '/..' . '/backpack/newscrud/src/app/Http/Requests/ArticleRequest.php',
+        'Backpack\\NewsCRUD\\app\\Http\\Requests\\CategoryRequest' => __DIR__ . '/..' . '/backpack/newscrud/src/app/Http/Requests/CategoryRequest.php',
+        'Backpack\\NewsCRUD\\app\\Http\\Requests\\TagRequest' => __DIR__ . '/..' . '/backpack/newscrud/src/app/Http/Requests/TagRequest.php',
+        'Backpack\\NewsCRUD\\app\\Models\\Article' => __DIR__ . '/..' . '/backpack/newscrud/src/app/Models/Article.php',
+        'Backpack\\NewsCRUD\\app\\Models\\Category' => __DIR__ . '/..' . '/backpack/newscrud/src/app/Models/Category.php',
+        'Backpack\\NewsCRUD\\app\\Models\\Tag' => __DIR__ . '/..' . '/backpack/newscrud/src/app/Models/Tag.php',
         'Backpack\\PageManager\\PageManagerServiceProvider' => __DIR__ . '/..' . '/backpack/pagemanager/src/PageManagerServiceProvider.php',
         'Backpack\\PageManager\\app\\Http\\Controllers\\Admin\\PageCrudController' => __DIR__ . '/..' . '/backpack/pagemanager/src/app/Http/Controllers/Admin/PageCrudController.php',
         'Backpack\\PageManager\\app\\Http\\Requests\\PageRequest' => __DIR__ . '/..' . '/backpack/pagemanager/src/app/Http/Requests/PageRequest.php',
